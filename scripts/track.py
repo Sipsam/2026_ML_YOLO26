@@ -5,9 +5,9 @@ from collections import defaultdict, deque
 import cv2
 import numpy as np
 
-ROOT = Path("/home/sipsam/lol-yolo")
+ROOT = Path(__file__).resolve().parents[1]
 
-MODEL = ROOT / "runs/lol_final_yolo26s/weights/best.pt"
+MODEL = ROOT / "models/fine-tuned-yolo26s-best.pt"
 VIDEO = ROOT / "gameplay.mp4"
 OUTPUT = ROOT / "results/tracking.mp4"
 
