@@ -12,7 +12,7 @@ def main():
         epochs=100,
         imgsz=960,
         batch=16,
-        device=0,
+        device=[0,1],
         patience=20,
         workers=8,
         project=str(ROOT / "runs"),
