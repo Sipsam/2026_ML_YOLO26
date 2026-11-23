@@ -41,7 +41,7 @@
 
 YOLO26s와 ByteTrack을 이용하여 객체별 Bounding Box, 클래스, Tracking ID 및 이동 궤적을 시각화하였습니다.
 
-**[5초 추적 결과 영상](results/tracking-5s.mp4)**
+**[5초 추적 결과 영상](results/track-5s.mp4)**
 
 ## 5. 설치 및 실행
 
