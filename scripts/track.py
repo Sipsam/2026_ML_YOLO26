@@ -12,8 +12,8 @@ VIDEO = ROOT / "gameplay.mp4"
 OUTPUT = ROOT / "results/tracking.mp4"
 
 # 원하는 설정
-START_SECONDS = 0       # 영상 시작 지점
-DURATION_SECONDS = 25    # 제출용 영상 길이
+START_SECONDS = 10       # 영상 시작 지점
+DURATION_SECONDS = 5    # 제출용 영상 길이
 CONFIDENCE = 0.25
 BOX_WIDTH = 1
 FONT_SIZE = 9
